@@ -1,3 +1,15 @@
+::-webkit-input-placeholder {
+    font-style: italic;
+ }
+ :-moz-placeholder {
+    font-style: italic;  
+ }
+ ::-moz-placeholder {
+    font-style: italic;  
+ }
+ :-ms-input-placeholder {  
+    font-style: italic; 
+ }
 body {
     background-image: url("daytime.jpg");
     background-color: black;
@@ -12,7 +24,7 @@ body {
     box-shadow: gray;
     padding: 5px;
     margin: 10px;
-    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .city {
@@ -36,14 +48,14 @@ header {
     align-items: center;
     text-align: center;
     font-size: 100px;
-    padding: 26px;
+    padding: 25px;
     height: 135px;
     width: 135px;
     margin: auto;
     border-radius: 100%;
     text-shadow: gray;
     background-color: white;
-    box-shadow: 10px, 10px, 10px, 10px, rgba(0, 0, 0, .6);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     margin-top: 20px;
 }
 .date {
