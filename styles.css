@@ -1,0 +1,45 @@
+body {
+    background-image: url("daytime.jpg");
+    font-family: 'Raleway', sans-serif;
+}
+.search-input {
+    border-radius: 5em;
+    font-size: 16px;
+    box-shadow: 5px, 5px, 5px, 5px, gray;
+}
+
+.city {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    padding: 10px;
+}
+header {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.temp {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 100px;
+    font-weight: 500;
+}
+.date {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.weather {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+}
+.highlow {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
