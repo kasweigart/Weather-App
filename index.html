@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Weather</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
-        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-    </head>
-    <body class="app">
-        <div>
-            <header id="search">
-                <input type="text" autocomplete="off" class="search" placeholder="Enter city here">
-            </header>
-            <div class="city">
-               Ephrata, PA
-            </div>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Weather</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body class="app">
+    
+        <header id="search">
+            <input type="text" autocomplete="off" class="search" placeholder="Enter city here">
+        </header>
+        <div class="error">
         </div>
-        <div class="date">
-            Saturday, February 1, 2020
+        <div class="city">
         </div>
-        <div class="temp">
-            <span>&nbsp;</span>47<span>&#176;</span>
-        </div>
-        <div class="weather">
-            Sunny
-        </div>
-        <div class="highLow">
-            45<span>&#176;</span>/55<span>&#176;</span>   
-        </div>
-        <script src="weather.js" async defer></script>
-    </body>
+    
+    
+    <div class="temp">
+        <span>&nbsp;</span><span id="temp"></span><span>&#176;</span>
+    </div>
+    <div class="weather">
+    </div>
+    <div class="highLow">
+        <span id="low"></span><span>&#176;</span>/<span id="high"></span><span>&#176;</span>
+    </div>
+    <script src="weather.js" async defer></script>
+</body>
+
 </html>
